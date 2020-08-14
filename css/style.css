@@ -301,7 +301,7 @@ Button
   border-color: #ffd829;;
 }
 .btn.btn-white {
-  background-color: #ffffff;
+  background-color: #b7b5c4;
   border-color: #ffffff;
   color: #ffd829; !important;
 }
@@ -353,7 +353,7 @@ Button
   color: #ffffff !important;
 }
 .btn.btn-simple {
-  border-color: transparent;
+  border-color: "111111";
   background-color: transparent;
   color: #111111 !important;
 }
@@ -540,7 +540,7 @@ Header
   height: 60px;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 17px;
+  padding-top: 10px;
   padding-bottom: 17px;
 }
 .navbar-default.affix .navbar-nav > li > a {
@@ -572,7 +572,7 @@ Header
 }
 
 .navbar-toggle {
-  height: 34px;
+  height: 50px;
   padding: 9px 10px;
 }
 

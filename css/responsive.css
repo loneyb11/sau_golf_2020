@@ -109,8 +109,8 @@
 
   .navbar-default .navbar-toggle {
     display: block;
-    background-color: #fc427f;
-    border-color: #fc427f;
+    background-color: #ffd829;
+    border-color: #ffd829;
     border-radius: 5px;
     margin: 33px 0;
   }
@@ -135,7 +135,7 @@
     margin-bottom: 6px;
   }
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fc427f;
+    background-color: #ffd829;
   }
   .navbar-default .navbar-toggle.collapsed .icon-bar {
     opacity: 1;
