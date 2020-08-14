@@ -37,7 +37,7 @@ html {
 
 body {
   font-size: 1.4rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   color: #111111;
   font-weight: 300;
   line-height: 1.857143;
@@ -552,7 +552,7 @@ Header
 
 .navbar-brand {
   height: 70px;
-  padding-top: 22px;
+  padding-top: 10px;
   padding-bottom: 22px;
   margin-top: 15px;
   margin-bottom: 15px;
