@@ -349,3 +349,40 @@ $('#clock').countdown('2020/08/29', function(event) {
     });
 
 });
+
+/*----------------------------------------------------
+          FAQ
+        ----------------------------------------------------*/
+        var topic = $('.topic .open'),
+            question = $('.question'),
+            liveSearch = $('.live-search-box');
+
+        $(topic).on('click', function () {
+            var container = $(this).parents(".topic");
+            var answer = container.find(".answer");
+
+            answer.slideToggle(200);
+
+            if (container.hasClass("expanded")) {
+                container.removeClass("expanded");
+            } else {
+                container.addClass("expanded");
+            }
+        });
+
+        $(question).each(function () {
+            $(this).attr('data-search-term', $(this).text().toLowerCase());
+
+        });
+
+        $(liveSearch).on('keyup', function () {
+            var searchTerm = $(this).val().toLowerCase();
+
+            $(question).each(function () {
+                if ($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) {
+                    $(this).parent().parent().show();
+                } else {
+                    $(this).parent().parent().hide();
+                }
+            });
+        });
